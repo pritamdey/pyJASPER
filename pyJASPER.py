@@ -7,7 +7,7 @@ from polyagamma import random_polyagamma
 
 class JASPER:
     """
-    Low-rank dispersion-augmented JASPER sampler.
+    The JASPER MCMC sampler class.
 
     Model:
 

@@ -4,7 +4,9 @@ Python implementation of Joint Bayesian Analysis of SPatial Expression via Regre
 
 JASPER uses a Negative-Binomial count regression model with a latent multivariate Gaussian expression surface modeled using spatial basis functions, a low-rank covariance structure, and SVG inticators.
 
-The main Python3 implementation is in [`pyJASPER.py`](pyJASPER.py) which contains the `JASPER` class, while [`main.ipynb`](main.ipynb) contains an example run on a toy dataset generated therein.
+![JASPER Schematic](./assets/JASPER_combined_schematic.png)
+
+The main Python3 implementation is in [`pyJASPER.py`](pyJASPER.py) which contains the `JASPER` class, while [`main.ipynb`](main.ipynb) contains an example run on a toy dataset.
 
 ## Requirements
 
